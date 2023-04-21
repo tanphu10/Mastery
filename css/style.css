@@ -1,0 +1,303 @@
+/* reset css */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.clear {
+  clear: both;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+/* css dùng chung */
+.contain {
+  width: 80%;
+  margin: auto;
+}
+/* css nav */
+.nav {
+  padding: 10px 0;
+}
+.nav a {
+  text-decoration: none;
+}
+.nav i {
+  padding: 10px;
+  background-color: #002146;
+  color: #fdc800;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav h1 {
+  color: #1b1d2d;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav ul {
+  list-style: none;
+  padding: 10px 0;
+}
+.nav li {
+  display: inline;
+  padding-left: 20px;
+}
+.nav li a {
+  color: #1b1d2d;
+}
+/* css banner */
+.banner {
+  background-image: url(".././images/2.jpg");
+  height: 560px;
+  background-size: cover;
+}
+/* css intro */
+.intro {
+  padding: 50px 0;
+}
+.intro .intro__left,
+.intro__right {
+  width: 50%;
+  float: left;
+}
+.intro .intro__left h1 {
+  color: #1b1d2d;
+}
+.intro .intro__left p {
+  padding: 16px 30px 0 0;
+  line-height: 22px;
+  color: #797979;
+}
+.intro .intro__left button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #fdc800;
+  color: #002146;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.intro .intro__right img {
+  width: 100%;
+}
+/* css info */
+.info {
+  background-color: #f6f6f6;
+  padding: 40px 0;
+}
+.info .info__item:first-child {
+  padding-left: 0px;
+}
+.info .info__item {
+  width: 25%;
+  float: left;
+  padding-left: 10px;
+}
+.info__item b {
+  font-size: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.info__item p {
+  color: #1b1d2d;
+  width: 50%;
+  font-size: 15px;
+  margin-left: 10px;
+  line-height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* css products */
+.products {
+  padding: 60px 0;
+}
+.products .product__item {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+.products .contain .product__item:first-child {
+  padding-left: 0px;
+}
+.products .contain .product__item:nth-child(5) {
+  padding-left: 0px;
+}
+.products .contain .product__item:nth-child(4) {
+  padding-right: 0px;
+}
+.products .contain .product__item:last-child {
+  padding-right: 0px;
+}
+.products .product__item .item__content {
+  background-color: #002146;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px;
+}
+.products i {
+  font-size: 60px;
+}
+.products p {
+  padding-top: 16px;
+}
+/* css posts */
+.posts__events {
+  background-color: #f6f6f6;
+  padding: 70px 0;
+}
+.posts h2 {
+  color: #1b1d2d;
+  margin-bottom: 30px;
+}
+.posts {
+  width: 50%;
+  float: left;
+  padding-right: 10px;
+}
+.events {
+  width: 50%;
+  float: left;
+  padding-left: 10px;
+}
+
+.posts .post__bg {
+  background-color: white;
+  padding: 20px;
+}
+.posts .post__img {
+  width: 30%;
+  float: left;
+}
+.posts .post__text {
+  width: 70%;
+  float: left;
+  padding: 0 20px;
+}
+.posts .post__text h3 {
+  color: #1b1d2d;
+  padding-bottom: 10px;
+}
+.posts .post__text span {
+  color: #939393;
+}
+.posts .post__text p {
+  margin-top: 10px;
+  color: #585858;
+  line-height: 20px;
+}
+
+.posts .post__img img {
+  width: 100%;
+  border-radius: 5px;
+}
+.posts hr {
+  border: 1px solid #eeeeee;
+  box-shadow: none;
+  margin: 20px 0;
+}
+/* css events */
+.events h2 {
+  color: #1b1d2d;
+  margin-bottom: 30px;
+}
+.events .event__bg {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.events .event__img {
+  width: 20%;
+  float: left;
+}
+.events .event__text {
+  width: 80%;
+  float: left;
+}
+.events .month {
+  width: 80px;
+  background-color: #fdc800;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 5px 5px 0 0;
+}
+.events .year {
+  width: 80px;
+  background-color: #002146;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 0 0 5px 5px;
+}
+.events p {
+  margin: 10px 20px 10px 0;
+  line-height: 20px;
+  color: #585858;
+}
+.events .time,
+.where {
+  float: left;
+  padding: 5px 18px 5px 0;
+}
+.events .where {
+  padding-left: 18px;
+  border-left: 2px solid #bdbdbd;
+}
+/* css view all */
+.viewall {
+  text-align: right;
+  margin: 20px 0;
+}
+.viewall button {
+  padding: 10px 26px;
+  background-color: #fdc800;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+button:hover{
+  cursor: pointer;
+}
+
+
+
+/* css footer */
+.footer {
+  background-color: #002146;
+  color: white;
+  padding: 40px 0;
+}
+.footer .footer__item {
+  width: 33.33%;
+  float: left;
+  padding-right: 30px;
+}
+.footer h3 {
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+.footer ul {
+  list-style: none;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
+.footer p {
+  padding-bottom: 15px;
+  line-height: 20px;
+}
+.footer i {
+  color: #fdc800;
+  padding-right: 10px;
+}
+.footer hr {
+  margin: 20px 0;
+  border: 1px solid #797979;
+}
